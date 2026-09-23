@@ -1,0 +1,69 @@
+<!--Dibuat Oleh: Annisa Ulla Rahmawati
+    Tanggal Dibuat: 2 April 2026
+    Tanggal Modifikasi: -
+    Deskripsi: Latihan Buat Tabel
+    odd ganjil, even kanan-->
+
+<html>
+<head>
+    <title>Latihan 2.8</title>
+</head>
+<body>
+    <table border="1" cellpadding="3" cellspacing="3" align="center" >
+        <thead>
+            <tr>
+                <th rowspan="2">NIM</th>
+                <th rowspan="2">Nama Mahasiswa</th>
+                <th colspan="3">Nilai</th>
+            </tr>
+            
+            <tr>
+                <th>Teori</th>
+                <th>Praktikum</th>
+                <th>Tugas</th>
+            </tr>
+        </thead>
+        <tbody>        
+            <tr>
+                <td>320181601</td>
+                <td>Lindung Siswanto</td>
+                <td>80</td>
+                <td>85</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>320181602</td>
+                <td>Indah Permatasari</td>
+                <td>90</td>
+                <td>95</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td>320181603</td>
+                <td>Heri Akbar</td>
+                <td>70</td>
+                <td>85</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>320181603</td>
+                <td>Heri Akbar</td>
+                <td>70</td>
+                <td>85</td>
+                <td>25</td>
+            </tr>
+            <tfoot>
+                <td colspan="2" align="center"> Rata-rata Nilai</td>
+                <td>100</td>
+                <td>80</td>
+                <td>90</td>
+            </tfoot>
+        </tbody>
+    </table>
+    <style>
+        tbody tr:nth-child(even){  
+            background-color: #ff0000;
+        }
+    </style>
+</body>
+</html>
